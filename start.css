@@ -1,0 +1,16 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+}
+
+#orange {
+    order: 2;
+}
+
+#blue {
+    order: 3;
+}
+
+#green {
+    order: 1;
+}
